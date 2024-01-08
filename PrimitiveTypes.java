@@ -1,10 +1,11 @@
 public class PrimitiveTypes {
     public static void main(String[] args) {
         PrimitiveTypes types=new PrimitiveTypes();
-        types.checkByte();
-        types.checkOtherTypes();
+        //types.checkByte();
+        //types.checkOtherTypes();
+        types.checkChar();
     }
-    public void checkByte() {
+    /* public void checkByte() {
         byte byteMin=-128;
         byte byteMax=127;
         System.out.println("byteMin="+byteMin);
@@ -27,5 +28,13 @@ public class PrimitiveTypes {
         System.out.println("shortMax+1="+shortMax);
         System.out.println("intMax+1="+intMax);
         System.out.println("longMax+1="+longMax);
+    } */
+    public void checkChar() {
+        char charMin='\u0000';
+        char charMax='\uffff';
+        System.out.println("charMin=["+charMin+"]");
+        System.out.println("charMax=["+charMax+"]");
+        int intValue='a';
+        System.out.println("intValue=["+intValue+"]");
     }
 }
