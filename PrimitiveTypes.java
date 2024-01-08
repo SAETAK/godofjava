@@ -4,9 +4,10 @@ public class PrimitiveTypes {
         //types.checkByte();
         //types.checkOtherTypes();
         //types.checkChar();
-        types.checkBoolean();
+        //types.checkBoolean();
+
     }
-    /* public void checkByte() {
+    /*public void checkByte() {
         byte byteMin=-128;
         byte byteMax=127;
         System.out.println("byteMin="+byteMin);
@@ -37,11 +38,17 @@ public class PrimitiveTypes {
         System.out.println("charMax=["+charMax+"]");
         int intValue='a';
         System.out.println("intValue=["+intValue+"]");
-    } */
+    } 
     public void checkBoolean() {
         boolean flag=true;
         System.out.println(flag);
         flag=false;
         System.out.println(flag);
+    } */
+    int intDefault1;
+    public void defaultValues() {
+        int intDefault2;
+        System.out.println(intDefault1);
+        System.out.println(intDefault2);
     }
 }
