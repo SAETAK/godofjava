@@ -10,5 +10,4 @@ public class OperatorConditionalTriple {
         System.out.println(point+" : "+ doBlindDateFlag);
         return doBlindDateFlag;
     } 
-    
 }
