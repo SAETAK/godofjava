@@ -2,7 +2,8 @@ public class OperatorComparision {
     public static void main(String args[]) {
         OperatorComparision operator=new OperatorComparision();
         //operator.comparision();
-        operator.comparision2();
+        //operator.comparision2();
+        operator.booleanComparision();
     }
 
     public void comparision(){
@@ -22,5 +23,14 @@ public class OperatorComparision {
         int intValue=1;
         double doubleValue=1.0;
         System.out.println(intValue==doubleValue);
+    }
+
+    public void booleanComparision() {
+        boolean booleanValue1=true;
+        boolean booleanValue2=false;
+        boolean booleanValue3=true;
+        System.out.println(booleanValue1==booleanValue2);
+        System.out.println(booleanValue1==booleanValue3);
+        System.out.println(booleanValue2==booleanValue3);
     }
 }
